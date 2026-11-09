@@ -68,9 +68,6 @@ strong { font-weight: 600; }
 .home-heading h1 { font-size: 42px; margin-bottom: 4px; }
 .home-heading h1 strong { font-weight: 600; }
 .affiliation { font-size: 15px; color: var(--muted); margin-bottom: 24px; }
-.genome-banner { width: 100%; margin: 0 0 28px; }
-.genome-banner picture, .genome-banner img { display: block; width: 100%; height: auto; }
-.genome-banner img { border-radius: 12px; }
 .home-intro p { margin-bottom: 16px; }
 .home-section { padding: 22px 0; }
 .home-section h2 a { color: var(--text); }
@@ -185,7 +182,6 @@ strong { font-weight: 600; }
   h1 { font-size: 34px; }
   h2 { font-size: 25px; }
   .affiliation { font-size: 14px; }
-  .genome-banner { margin-bottom: 23px; }
   .news-table th { width: 97px; padding-right: 13px; font-size: 12px; }
   .news-table td { font-size: 14px; }
   .profile { grid-template-columns: 1fr; gap: 22px; }

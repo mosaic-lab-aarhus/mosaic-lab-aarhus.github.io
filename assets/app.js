@@ -103,9 +103,6 @@ if (programme) {
     const isUpcoming = row.dataset.seminarDate >= today;
     if (isUpcoming) upcomingBody.append(row);
     else groupFor(row.dataset.seminarDate.slice(0, 4)).querySelector("tbody").prepend(row);
-    if (row.dataset.topicKind === "unspecified") {
-      row.querySelector("td:last-child .note").textContent = isUpcoming ? "To be announced" : "Topic not listed";
-    }
   }
   for (const year of Array.from(yearGroups.keys()).sort().reverse()) pastYears.append(yearGroups.get(year));
 

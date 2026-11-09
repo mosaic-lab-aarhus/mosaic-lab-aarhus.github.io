@@ -18,8 +18,7 @@ def render_row(event, today):
     day = date.fromisoformat(event['date'])
     topic = e(event['topic'])
     if event['topic_kind'] == 'unspecified':
-        text = 'To be announced' if day >= today else 'Topic not listed'
-        topic_html = f'<span class="note">{text}</span>'
+        topic_html = ''
     else:
         kind = 'talk title' if event['topic_kind'] == 'title' else 'suggested reading'
         if event.get('reading_url'):
@@ -64,7 +63,7 @@ def render(data, today):
 <p class="lead">Conversations on genome structure, population genetics, and evolution.</p>
 </header>
 <div class="seminar-intro">
-<p>Charikleia (Clio) Karageorgiou organizes the Gokcumen Lab / BEAGL seminar series at the University at Buffalo. This page brings together its past seminars and announced upcoming events. Seminars at MOSAIC in Aarhus will be added as they are announced.</p>
+<p>Clio has been organizing this seminar series at the University at Buffalo. The series will now continue jointly between MOSAIC Lab at Aarhus University and the Gokcumen Lab at the University at Buffalo, bringing together researchers in evolutionary genomics, structural variation and population genetics.</p>
 <p class="note">Dates link to the original announcements. Start times are shown in Eastern Time (Buffalo). Suggested reading is labeled separately from a formal talk title.</p>
 </div>
 <div class="seminar-search" hidden>
@@ -74,7 +73,7 @@ def render(data, today):
 </div>
 <section class="seminar-section" id="upcoming" aria-labelledby="upcoming-title">
 <h2 id="upcoming-title">upcoming <span class="seminar-section-count" data-upcoming-count>{len(upcoming)}</span></h2>
-{table(upcoming,today,'data-upcoming-seminars','Upcoming seminars organized for the Gokcumen Lab / BEAGL series')}
+{table(upcoming,today,'data-upcoming-seminars','Upcoming evolutionary genomics seminars')}
 <p class="note" data-upcoming-empty{' hidden' if upcoming else ''}>No upcoming seminars listed.</p>
 </section>
 <section class="seminar-section" id="past" aria-labelledby="past-title">
