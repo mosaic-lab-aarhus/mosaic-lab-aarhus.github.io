@@ -1,0 +1,718 @@
+{
+  "source": "https://gokcumenlab.org/events/",
+  "checked": "2026-11-09",
+  "organizer": "Charikleia (Clio) Karageorgiou",
+  "series": "Gokcumen Lab / BEAGL, University at Buffalo",
+  "timezone": "America/New_York",
+  "events": [
+    {
+      "date": "2023-10-06",
+      "speaker": "Mario Cáceres",
+      "affiliation": "ICREA, Barcelona",
+      "url": "https://gokcumenlab.org/event/journal-club-by-mario-caceres-icrea-barcelona-evolution-of-inversions/",
+      "topic_kind": "title",
+      "topic": "Evolution of inversions",
+      "reading_url": "",
+      "time": "14:00",
+      "additional_readings": [
+        {
+          "title": "Selected paper 1",
+          "url": "https://www.nature.com/articles/s41467-019-12173-x"
+        },
+        {
+          "title": "Selected paper 2",
+          "url": "https://royalsocietypublishing.org/doi/full/10.1098/rstb.2021.0209"
+        }
+      ]
+    },
+    {
+      "date": "2023-10-13",
+      "speaker": "Martin Kuhlwilm",
+      "affiliation": "Department of Evolutionary Anthropology, University of Vienna",
+      "url": "https://gokcumenlab.org/event/journal-club-by-martin-kuhlwilm-department-of-evolutionary-anthropology-university-of-vienna/",
+      "topic_kind": "reading",
+      "topic": "Selected papers in the original announcement",
+      "reading_url": "",
+      "time": "14:00",
+      "additional_readings": [
+        {
+          "title": "Selected paper 1",
+          "url": "https://www.nature.com/articles/s41559-023-02145-2"
+        },
+        {
+          "title": "Selected paper 2",
+          "url": "https://academic.oup.com/mbe/article/39/11/msac212/6742343"
+        },
+        {
+          "title": "Selected paper 3",
+          "url": "https://www.nature.com/articles/s41559-019-0881-7"
+        }
+      ]
+    },
+    {
+      "date": "2023-10-30",
+      "speaker": "Luane",
+      "affiliation": "",
+      "url": "https://gokcumenlab.org/event/luanes-presentation-in-the-seminar-series/",
+      "topic_kind": "unspecified",
+      "topic": "",
+      "reading_url": "",
+      "time": "16:00",
+      "additional_readings": []
+    },
+    {
+      "date": "2023-11-03",
+      "speaker": "Ben Moran",
+      "affiliation": "Stanford University",
+      "url": "https://gokcumenlab.org/event/journal-club-by-ben-moran-phd-candidate-stanford-university/",
+      "topic_kind": "unspecified",
+      "topic": "",
+      "reading_url": "",
+      "time": "14:00",
+      "additional_readings": []
+    },
+    {
+      "date": "2023-11-17",
+      "speaker": "Pille Hallast",
+      "affiliation": "The Jackson Laboratory for Genomic Medicine",
+      "url": "https://gokcumenlab.org/event/journal-club-by-pille-hallast-the-jackson-laboratory-for-genomic-medicine/",
+      "topic_kind": "reading",
+      "topic": "Hallast et al., 2023",
+      "reading_url": "https://www.nature.com/articles/s41586-023-06425-6",
+      "time": "14:00",
+      "additional_readings": [
+        {
+          "title": "Skaletsky et al., 2003",
+          "url": "https://www.nature.com/articles/Art39"
+        },
+        {
+          "title": "Rhie et al., 2023",
+          "url": "https://www.nature.com/articles/s41586-023-06457-y"
+        }
+      ]
+    },
+    {
+      "date": "2023-12-01",
+      "speaker": "Alexa Sadier",
+      "affiliation": "University of California, Los Angeles",
+      "url": "https://gokcumenlab.org/event/journal-club-by-alexa-sadier-university-of-california-los-angeles/",
+      "topic_kind": "unspecified",
+      "topic": "",
+      "reading_url": "",
+      "time": "14:00",
+      "additional_readings": []
+    },
+    {
+      "date": "2024-03-15",
+      "speaker": "Erin N. Gilbertson",
+      "affiliation": "UCSF",
+      "url": "https://gokcumenlab.org/event/seminar_gilbertson/",
+      "topic_kind": "reading",
+      "topic": "Machine learning reveals the diversity of human 3D chromatin contact patterns",
+      "reading_url": "https://www.biorxiv.org/content/10.1101/2023.12.22.573104v1",
+      "time": "15:00",
+      "additional_readings": []
+    },
+    {
+      "date": "2024-04-05",
+      "speaker": "Shikha Jain",
+      "affiliation": "University at Buffalo",
+      "url": "https://gokcumenlab.org/event/seminar-by-shikha-jain-ub/",
+      "topic_kind": "unspecified",
+      "topic": "",
+      "reading_url": "",
+      "time": "10:00",
+      "additional_readings": []
+    },
+    {
+      "date": "2024-04-12",
+      "speaker": "Aurora Ruiz-Herrera",
+      "affiliation": "Universitat Autònoma de Barcelona",
+      "url": "https://gokcumenlab.org/event/seminar-by-aurora-ruiz-herrera-universitat-autonoma-de-barcelona/",
+      "topic_kind": "unspecified",
+      "topic": "",
+      "reading_url": "",
+      "time": "10:00",
+      "additional_readings": []
+    },
+    {
+      "date": "2024-04-26",
+      "speaker": "Joaquin C. B. Nunez",
+      "affiliation": "University of Vermont",
+      "url": "https://gokcumenlab.org/event/seminar-by-joaquin-c-b-nunez-university-of-vermont/",
+      "topic_kind": "unspecified",
+      "topic": "",
+      "reading_url": "",
+      "time": "10:30",
+      "additional_readings": []
+    },
+    {
+      "date": "2024-05-31",
+      "speaker": "Bo Xia",
+      "affiliation": "Harvard University",
+      "url": "https://gokcumenlab.org/event/seminar-by-bo-xia-harvard-university/",
+      "topic_kind": "reading",
+      "topic": "Never-ending story of Brachyury: From short-tailed mice to tailless primates",
+      "reading_url": "https://pubmed.ncbi.nlm.nih.gov/38072067/",
+      "time": "15:00",
+      "additional_readings": [
+        {
+          "title": "Suggested article 2",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/37588936/"
+        },
+        {
+          "title": "Suggested article 3",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/29315541/"
+        },
+        {
+          "title": "Suggested article 4",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/31559446/"
+        },
+        {
+          "title": "Suggested article 5",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/7588606/"
+        }
+      ]
+    },
+    {
+      "date": "2024-06-07",
+      "speaker": "Carla Bautista",
+      "affiliation": "Université Laval",
+      "url": "https://gokcumenlab.org/event/seminar-by-carla-bautista-universite-laval/",
+      "topic_kind": "reading",
+      "topic": "Bautista et al. 2023",
+      "reading_url": "https://www.biorxiv.org/content/10.1101/2023.12.15.571924v1.abstract",
+      "time": "15:00",
+      "additional_readings": []
+    },
+    {
+      "date": "2024-06-21",
+      "speaker": "Amy Goldberg",
+      "affiliation": "Duke University",
+      "url": "https://gokcumenlab.org/event/seminar-by-amy-goldberg-duke/",
+      "topic_kind": "unspecified",
+      "topic": "",
+      "reading_url": "",
+      "time": "14:00",
+      "additional_readings": []
+    },
+    {
+      "date": "2024-10-28",
+      "speaker": "Amnon Koren",
+      "affiliation": "Roswell Park",
+      "url": "https://gokcumenlab.org/event/seminar-by-amnon-koren-roswell-park/",
+      "topic_kind": "reading",
+      "topic": "Cell article linked in the original announcement",
+      "reading_url": "https://www.cell.com/fulltext/S0092-8674(14)01313-0",
+      "time": "14:30",
+      "additional_readings": []
+    },
+    {
+      "date": "2024-11-04",
+      "speaker": "Meaghan Marohn",
+      "affiliation": "UC Berkeley",
+      "url": "https://gokcumenlab.org/event/seminar-by-meaghan-marohn-uc-berkeley/",
+      "topic_kind": "title",
+      "topic": "Revisiting the evolution of lactase persistence: insights from South Asian genomes",
+      "reading_url": "",
+      "time": "15:00",
+      "additional_readings": [
+        {
+          "title": "Review 1",
+          "url": "https://www.annualreviews.org/content/journals/10.1146/annurev-genom-091416-035340"
+        },
+        {
+          "title": "Review 2",
+          "url": "https://royalsocietypublishing.org/doi/10.1098/rstb.2010.0268"
+        },
+        {
+          "title": "Article",
+          "url": "https://academic.oup.com/mbe/article/29/1/249/1749245?login=false#77835497"
+        }
+      ]
+    },
+    {
+      "date": "2024-11-18",
+      "speaker": "Djivan Prentout",
+      "affiliation": "Columbia University",
+      "url": "https://gokcumenlab.org/event/seminar-by-djivan-prentout-columbia/",
+      "topic_kind": "title",
+      "topic": "Conservation of mutation and recombination parameters between mammals and zebra finch",
+      "reading_url": "https://www.biorxiv.org/content/10.1101/2024.09.05.611523v1.abstract",
+      "time": "15:00",
+      "additional_readings": []
+    },
+    {
+      "date": "2024-11-25",
+      "speaker": "Amanda Larracuente",
+      "affiliation": "University of Rochester",
+      "url": "https://gokcumenlab.org/event/seminar-by-amanda-larracuente-university-of-rochester/",
+      "topic_kind": "unspecified",
+      "topic": "",
+      "reading_url": "",
+      "time": "15:00",
+      "additional_readings": []
+    },
+    {
+      "date": "2024-12-02",
+      "speaker": "Benjamin Peter",
+      "affiliation": "University of Rochester",
+      "url": "https://gokcumenlab.org/event/seminar-by-benjamin-peter-university-of-rochester/",
+      "topic_kind": "unspecified",
+      "topic": "",
+      "reading_url": "",
+      "time": "15:00",
+      "additional_readings": []
+    },
+    {
+      "date": "2025-01-10",
+      "speaker": "Nikhil Milind",
+      "affiliation": "Stanford University",
+      "url": "https://gokcumenlab.org/event/seminar-by-nikhil-milind-stanford-university/",
+      "topic_kind": "reading",
+      "topic": "Preprint linked in the original announcement",
+      "reading_url": "https://www.medrxiv.org/content/medrxiv/early/2024/11/11/2024.11.11.24317065.full.pdf",
+      "time": "15:00",
+      "additional_readings": []
+    },
+    {
+      "date": "2025-01-24",
+      "speaker": "Spencer Koury",
+      "affiliation": "Auburn University",
+      "url": "https://gokcumenlab.org/event/seminar-by-spencer-koury-auburn-university/",
+      "topic_kind": "reading",
+      "topic": "Heredity and Genetics articles in the original announcement",
+      "reading_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10076299/",
+      "time": "15:00",
+      "additional_readings": [
+        {
+          "title": "Genetics article",
+          "url": "https://academic.oup.com/genetics/article/225/2/iyad158/7250222"
+        }
+      ]
+    },
+    {
+      "date": "2025-02-07",
+      "speaker": "Cara Brand",
+      "affiliation": "University of Pennsylvania",
+      "url": "https://gokcumenlab.org/event/seminar-by-cara-brand-university-of-pennsylvania/",
+      "topic_kind": "reading",
+      "topic": "Suggested articles in the original announcement",
+      "reading_url": "https://pubmed.ncbi.nlm.nih.gov/38865490/",
+      "time": "15:00",
+      "additional_readings": [
+        {
+          "title": "Second suggested article",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/35643081/"
+        }
+      ]
+    },
+    {
+      "date": "2025-03-07",
+      "speaker": "Axel Jensen",
+      "affiliation": "Uppsala University",
+      "url": "https://gokcumenlab.org/event/seminar-by-axel-jensen-uppsala-university/",
+      "topic_kind": "reading",
+      "topic": "Y chromosome introgression between deeply divergent primate species",
+      "reading_url": "https://www.nature.com/articles/s41467-024-54719-8",
+      "time": "15:00",
+      "additional_readings": []
+    },
+    {
+      "date": "2025-03-21",
+      "speaker": "Daniela C. Soto",
+      "affiliation": "University of California, Los Angeles",
+      "url": "https://gokcumenlab.org/event/4063/",
+      "topic_kind": "title",
+      "topic": "Gene expansions contributing to human brain evolution",
+      "reading_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11463660/",
+      "time": "15:00",
+      "additional_readings": []
+    },
+    {
+      "date": "2025-04-04",
+      "speaker": "Richard Abdill",
+      "affiliation": "University of Chicago",
+      "url": "https://gokcumenlab.org/event/seminar-by-richard-abdill-university-of-chicago/",
+      "topic_kind": "reading",
+      "topic": "Integration of 168,000 samples reveals global patterns of the human gut microbiome",
+      "reading_url": "https://www.cell.com/cell/fulltext/S0092-8674(24)01430-2",
+      "time": "15:00",
+      "additional_readings": []
+    },
+    {
+      "date": "2025-04-18",
+      "speaker": "Walfred Ma",
+      "affiliation": "University of Southern California",
+      "url": "https://gokcumenlab.org/event/seminar-by-walfred-ma-university-of-southern-california/",
+      "topic_kind": "reading",
+      "topic": "Genotyping sequence-resolved copy-number variations using pangenomes reveals paralog-specific global diversity and expression divergence of gene duplication",
+      "reading_url": "https://www.biorxiv.org/content/10.1101/2024.08.11.607269v5",
+      "time": "15:00",
+      "additional_readings": []
+    },
+    {
+      "date": "2025-05-09",
+      "speaker": "Irina M Velsko",
+      "affiliation": "Max Planck Institute for Evolutionary Anthropology",
+      "url": "https://gokcumenlab.org/event/seminar-by-irina-m-velsko-max-planck-institute-for-evolutionary-anthropology/",
+      "topic_kind": "reading",
+      "topic": "Exploring the potential of dental calculus to shed light on past human migrations in Oceania",
+      "reading_url": "https://www.nature.com/articles/s41467-024-53920-z",
+      "time": "15:00",
+      "additional_readings": []
+    },
+    {
+      "date": "2025-05-23",
+      "speaker": "Jonas Koeppel",
+      "affiliation": "University of Washington",
+      "url": "https://gokcumenlab.org/event/seminar-by-jonas-koeppel-university-of-washington/",
+      "topic_kind": "reading",
+      "topic": "Randomizing the human genome by engineering recombination between repeat elements",
+      "reading_url": "https://www.science.org/doi/full/10.1126/science.ado3979",
+      "time": "15:00",
+      "additional_readings": []
+    },
+    {
+      "date": "2025-09-08",
+      "speaker": "Samantha L Cox",
+      "affiliation": "University of Pennsylvania",
+      "url": "https://gokcumenlab.org/event/seminar-by-samantha-l-cox-university-of-pennsylvania/",
+      "topic_kind": "reading",
+      "topic": "Effects of ancestry, agriculture, and lactase persistence on the stature of prehistoric Europeans",
+      "reading_url": "https://www.biorxiv.org/content/10.1101/2025.07.11.664181v1.abstract",
+      "time": "15:00",
+      "additional_readings": []
+    },
+    {
+      "date": "2025-09-22",
+      "speaker": "Alexander Turco",
+      "affiliation": "Princess Margaret Cancer Research Centre",
+      "url": "https://gokcumenlab.org/event/seminar-by-alexander-turco-princess-margaret-cancer-research-centre/",
+      "topic_kind": "unspecified",
+      "topic": "",
+      "reading_url": "",
+      "time": "15:00",
+      "additional_readings": []
+    },
+    {
+      "date": "2025-10-06",
+      "speaker": "Elise Kerdoncuff",
+      "affiliation": "Pasteur Institute",
+      "url": "https://gokcumenlab.org/event/seminar-by-elise-kerdoncuff-pasteur-institute/",
+      "topic_kind": "reading",
+      "topic": "50,000 years of evolutionary history of India: Impact on health and disease variation",
+      "reading_url": "https://www.cell.com/cell/fulltext/S0092-8674(25)00462-3",
+      "time": "15:00",
+      "additional_readings": []
+    },
+    {
+      "date": "2025-10-20",
+      "speaker": "Hannah Moots",
+      "affiliation": "Stockholm University",
+      "url": "https://gokcumenlab.org/event/seminar-by-hannah-moots-stockholm-university/",
+      "topic_kind": "unspecified",
+      "topic": "",
+      "reading_url": "",
+      "time": "15:00",
+      "additional_readings": []
+    },
+    {
+      "date": "2025-10-27",
+      "speaker": "Anna Igolkina",
+      "affiliation": "Gregor Mendel Institute",
+      "url": "https://gokcumenlab.org/event/seminar-by-anna-igolkina-gregor-mendel-institute/",
+      "topic_kind": "reading",
+      "topic": "Towards an unbiased characterization of genetic polymorphism: a comparison of 27 A. thaliana genomes",
+      "reading_url": "https://www.biorxiv.org/content/10.1101/2024.05.30.596703v2.abstract",
+      "time": "15:00",
+      "additional_readings": []
+    },
+    {
+      "date": "2025-11-03",
+      "speaker": "Angela Poole",
+      "affiliation": "Cornell University",
+      "url": "https://gokcumenlab.org/event/seminar-by-angela-poole-cornell-university/",
+      "topic_kind": "reading",
+      "topic": "The association between salivary amylase gene copy number and enzyme activity with type 2 diabetes status",
+      "reading_url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0324660",
+      "time": "15:00",
+      "additional_readings": []
+    },
+    {
+      "date": "2025-11-17",
+      "speaker": "Leon Hilgers",
+      "affiliation": "Senckenberg – Leibniz Institution for Biodiversity and Earth System Research (SGN)",
+      "url": "https://gokcumenlab.org/event/seminar-by-leon-hilgers-senckenberg-leibniz-institution-for-biodiversity-and-earth-system-research-sgn/",
+      "topic_kind": "unspecified",
+      "topic": "",
+      "reading_url": "",
+      "time": "15:00",
+      "additional_readings": []
+    },
+    {
+      "date": "2026-01-16",
+      "speaker": "Zexuan Chen",
+      "affiliation": "Durham University",
+      "url": "https://gokcumenlab.org/event/seminar-by-zexuan-chen-durham-university/",
+      "topic_kind": "unspecified",
+      "topic": "",
+      "reading_url": "",
+      "time": "09:00",
+      "additional_readings": []
+    },
+    {
+      "date": "2026-01-23",
+      "speaker": "Rozenn Pineau",
+      "affiliation": "University of Chicago",
+      "url": "https://gokcumenlab.org/event/seminar-by-rozenn-pineau-university-of-chicago/",
+      "topic_kind": "reading",
+      "topic": "The genomic response to drought across spatiotemporal scales in Amaranthus tuberculatus",
+      "reading_url": "https://www.biorxiv.org/content/10.1101/2025.10.02.679894v1.abstract",
+      "time": "14:00",
+      "additional_readings": []
+    },
+    {
+      "date": "2026-02-06",
+      "speaker": "Aaron Pfennig",
+      "affiliation": "Princeton University",
+      "url": "https://gokcumenlab.org/event/seminar-by-aaron-pfennig-princeton-university/",
+      "topic_kind": "reading",
+      "topic": "The evolutionary fate of Neanderthal DNA in 30,780 admixed genomes with recent African-like ancestry",
+      "reading_url": "https://www.biorxiv.org/content/10.1101/2024.07.25.605203v1",
+      "time": "13:00",
+      "additional_readings": []
+    },
+    {
+      "date": "2026-02-20",
+      "speaker": "Natanael Spisak",
+      "affiliation": "Columbia University",
+      "url": "https://gokcumenlab.org/event/seminar-by-natanael-spisak-columbia-university/",
+      "topic_kind": "reading",
+      "topic": "Collateral mutagenesis funnels multiple sources of DNA damage into a ubiquitous mutational signature",
+      "reading_url": "https://www.biorxiv.org/content/10.1101/2025.08.28.672844v1.abstract",
+      "time": "11:00",
+      "additional_readings": []
+    },
+    {
+      "date": "2026-03-13",
+      "speaker": "Marta Farré",
+      "affiliation": "University of Kent",
+      "url": "https://gokcumenlab.org/event/seminar-by-marta-farre-university-of-kent/",
+      "topic_kind": "unspecified",
+      "topic": "",
+      "reading_url": "",
+      "time": "14:00",
+      "additional_readings": []
+    },
+    {
+      "date": "2026-03-20",
+      "speaker": "Anastasia Ignatieva",
+      "affiliation": "University of Oxford",
+      "url": "https://gokcumenlab.org/event/seminar-by-anastasia-ignatieva-university-of-oxford/",
+      "topic_kind": "reading",
+      "topic": "The Length of Haplotype Blocks and Signals of Structural Variation in Reconstructed Genealogies",
+      "reading_url": "https://academic.oup.com/mbe/article/42/9/msaf190/8223473",
+      "time": "14:00",
+      "additional_readings": []
+    },
+    {
+      "date": "2026-04-03",
+      "speaker": "Ammon Corl",
+      "affiliation": "University of California, Berkeley",
+      "url": "https://gokcumenlab.org/event/seminar-by-ammon-corl-university-of-california-berkeley/",
+      "topic_kind": "reading",
+      "topic": "The genetics, evolution, and maintenance of a biological rock-paper-scissors game",
+      "reading_url": "https://www.science.org/doi/abs/10.1126/science.adw8265",
+      "time": "14:00",
+      "additional_readings": []
+    },
+    {
+      "date": "2026-04-10",
+      "speaker": "Arjun Biddanda",
+      "affiliation": "Johns Hopkins University",
+      "url": "https://gokcumenlab.org/event/seminar-by-arjun-biddanda-johns-hopkins-university/",
+      "topic_kind": "reading",
+      "topic": "Common variation in meiosis genes shapes human recombination and aneuploidy",
+      "reading_url": "https://www.nature.com/articles/s41586-025-09964-2",
+      "time": "14:00",
+      "additional_readings": []
+    },
+    {
+      "date": "2026-04-17",
+      "speaker": "Robin Hofmeister",
+      "affiliation": "University of Lausanne",
+      "url": "https://gokcumenlab.org/event/seminar-by-robin-hofmeister-university-of-lausanne/",
+      "topic_kind": "reading",
+      "topic": "Parental haplotypes reconstruction in up to 440,209 individuals reveals recent assortative mating dynamics",
+      "reading_url": "https://www.biorxiv.org/content/10.1101/2025.09.24.678243v1.full",
+      "time": "11:00",
+      "additional_readings": []
+    },
+    {
+      "date": "2026-05-01",
+      "speaker": "Gayani Senevirathne",
+      "affiliation": "Harvard University",
+      "url": "https://gokcumenlab.org/event/seminar-by-gayani-senevirathne-harvard-university/",
+      "topic_kind": "reading",
+      "topic": "The evolution of hominin bipedalism in two steps",
+      "reading_url": "https://www.nature.com/articles/s41586-025-09399-9",
+      "time": "14:00",
+      "additional_readings": []
+    },
+    {
+      "date": "2026-05-15",
+      "speaker": "Charlotte Wright",
+      "affiliation": "Wellcome Sanger Institute",
+      "url": "https://gokcumenlab.org/event/seminar-by-charlotte-wright-wellcome-sanger-institute/",
+      "topic_kind": "reading",
+      "topic": "Constraints on chromosome evolution revealed by the 229 chromosome pairs of the Atlas blue butterfly",
+      "reading_url": "https://www.cell.com/current-biology/fulltext/S0960-9822(25)01098-X",
+      "time": "14:00",
+      "additional_readings": []
+    },
+    {
+      "date": "2026-05-29",
+      "speaker": "Sophie Jean Walton",
+      "affiliation": "Stanford University",
+      "url": "https://gokcumenlab.org/event/seminar-by-sophie-jean-walton-stanford-university/",
+      "topic_kind": "reading",
+      "topic": "Community coalescence reveals strong selection and coexistence within species in complex microbial communities",
+      "reading_url": "https://www.biorxiv.org/content/10.1101/2025.11.06.687011v1.abstract",
+      "time": "14:00",
+      "additional_readings": []
+    },
+    {
+      "date": "2026-09-04",
+      "speaker": "Yulin Zhang",
+      "affiliation": "University of California, Berkeley",
+      "url": "https://gokcumenlab.org/event/seminar-by-yulin-zhang-uc-berkeley/",
+      "topic_kind": "reading",
+      "topic": "Recovering signatures of archaic introgression using ancestral recombination graphs",
+      "reading_url": "https://www.biorxiv.org/content/10.64898/2026.03.03.709416v1",
+      "time": "14:00",
+      "additional_readings": []
+    },
+    {
+      "date": "2026-09-18",
+      "speaker": "Hrushikesh Loya",
+      "affiliation": "University of Oxford",
+      "url": "https://gokcumenlab.org/event/seminar-by-hrushikesh-loya-university-of-oxford/",
+      "topic_kind": "reading",
+      "topic": "Genome-wide genealogies reveal deep admixtures forming modern humans",
+      "reading_url": "https://www.biorxiv.org/content/10.64898/2026.04.17.719197.abstract",
+      "time": "14:00",
+      "additional_readings": []
+    },
+    {
+      "date": "2026-10-02",
+      "speaker": "Richard Wolff",
+      "affiliation": "UC San Diego",
+      "url": "https://gokcumenlab.org/event/seminar-by-richard-wolff-uc-san-diego/",
+      "topic_kind": "reading",
+      "topic": "Gene-specific selective sweeps are pervasive across human gut microbiomes",
+      "reading_url": "https://www.nature.com/articles/s41586-025-09798-y",
+      "time": "14:00",
+      "additional_readings": []
+    },
+    {
+      "date": "2026-10-09",
+      "speaker": "Juraj Bergman",
+      "affiliation": "Aarhus University",
+      "url": "https://gokcumenlab.org/event/seminar-by-juraj-bergman-aarhus-university/",
+      "topic_kind": "reading",
+      "topic": "A Curated Genome-Scale Nucleotide Diversity Panel of Non-Human Primates",
+      "reading_url": "https://www.biorxiv.org/lookup/doi/10.64898/2026.06.16.732573",
+      "time": "11:00",
+      "additional_readings": []
+    },
+    {
+      "date": "2026-10-16",
+      "speaker": "Nolan Kamitaki",
+      "affiliation": "Harvard Medical School",
+      "url": "https://gokcumenlab.org/event/seminar-by-nolan-kamitaki/",
+      "topic_kind": "reading",
+      "topic": "Human and bacterial genetic variation shape oral microbiomes and health",
+      "reading_url": "https://www.nature.com/articles/s41586-025-10037-7",
+      "time": "14:00",
+      "additional_readings": []
+    },
+    {
+      "date": "2026-10-30",
+      "speaker": "Anders Bergström",
+      "affiliation": "University of East Anglia",
+      "url": "https://gokcumenlab.org/event/seminar-by-anders-bergstrom-university-of-east-anglia/",
+      "topic_kind": "reading",
+      "topic": "Genomic history of early dogs in Europe",
+      "reading_url": "https://www.nature.com/articles/s41586-026-10112-7",
+      "time": "14:00",
+      "additional_readings": []
+    },
+    {
+      "date": "2026-11-13",
+      "speaker": "Isabella Salamone",
+      "affiliation": "University of Chicago",
+      "url": "https://gokcumenlab.org/event/seminar-by-isabella-salamone-university-of-chicago/",
+      "topic_kind": "unspecified",
+      "topic": "",
+      "reading_url": "",
+      "time": "14:00",
+      "additional_readings": []
+    },
+    {
+      "date": "2026-11-20",
+      "speaker": "Matthew Aguirre",
+      "affiliation": "Genentech",
+      "url": "https://gokcumenlab.org/event/seminar-by-matthew-aguirre-genentech/",
+      "topic_kind": "reading",
+      "topic": "Regulatory network topology and the genetic architecture of gene expression",
+      "reading_url": "https://www.cell.com/cell-genomics/pdfExtended/S2666-979X(26)00081-9",
+      "time": "14:00",
+      "additional_readings": []
+    },
+    {
+      "date": "2026-12-04",
+      "speaker": "Alexander Okamoto",
+      "affiliation": "Carnegie Mellon University",
+      "url": "https://gokcumenlab.org/event/seminar-by-alexander-okamoto-carnegie-mellon-university/",
+      "topic_kind": "reading",
+      "topic": "Modular genetic architecture underlies human hand and foot evolution",
+      "reading_url": "https://www.pnas.org/doi/abs/10.1073/pnas.2603297123",
+      "time": "14:00",
+      "additional_readings": []
+    },
+    {
+      "date": "2027-02-19",
+      "speaker": "David Tang",
+      "affiliation": "Harvard Medical School",
+      "url": "https://gokcumenlab.org/event/seminar-by-david-tang-harvard-medical-school/",
+      "topic_kind": "reading",
+      "topic": "Recurrent mitotic error and purifying selection shape chromosomal mosaicism across human tissues",
+      "reading_url": "https://www.biorxiv.org/content/10.64898/2026.10.27.760146v1.full.pdf",
+      "time": "10:00",
+      "additional_readings": []
+    },
+    {
+      "date": "2027-05-14",
+      "speaker": "Peiwei Chen",
+      "affiliation": "Cornell University",
+      "url": "https://gokcumenlab.org/event/seminar-by-peiwei-chen-cornell-university/",
+      "topic_kind": "reading",
+      "topic": "piRNA loss unleashes episodic transposition bursts",
+      "reading_url": "https://www.pnas.org/doi/10.1073/pnas.2623866123",
+      "time": "10:00",
+      "additional_readings": []
+    },
+    {
+      "date": "2027-05-21",
+      "speaker": "Anna Glushkevich",
+      "affiliation": "Max Planck Institute for Plant Breeding Research",
+      "url": "https://gokcumenlab.org/event/seminar-by-anna-glushkevich-max-planck-institute-for-plant-breeding-research/",
+      "topic_kind": "reading",
+      "topic": "The Nature of Centromeric Repeat Turnovers in the genus Arabidopsis",
+      "reading_url": "https://www.biorxiv.org/content/10.64898/2026.09.10.749358v1",
+      "time": "10:00",
+      "additional_readings": []
+    }
+  ]
+}

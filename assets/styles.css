@@ -68,11 +68,9 @@ strong { font-weight: 600; }
 .home-heading h1 { font-size: 42px; margin-bottom: 4px; }
 .home-heading h1 strong { font-weight: 600; }
 .affiliation { font-size: 15px; color: var(--muted); margin-bottom: 24px; }
-.genome-banner { width: 100%; margin: 0 0 28px; background: var(--soft); }
-.genome-banner svg { display: block; width: 100%; height: auto; }
-.genome-banner .track { stroke: var(--line); }
-.genome-banner .block { fill: var(--accent); }
-.genome-banner .connector { stroke: var(--accent); }
+.genome-banner { width: 100%; margin: 0 0 28px; }
+.genome-banner picture, .genome-banner img { display: block; width: 100%; height: auto; }
+.genome-banner img { border-radius: 12px; }
 .home-intro p { margin-bottom: 16px; }
 .home-section { padding: 22px 0; }
 .home-section h2 a { color: var(--text); }
@@ -139,10 +137,38 @@ strong { font-weight: 600; }
 .footer-links { display: flex; flex-wrap: wrap; gap: 7px 18px; font-size: 12px; }
 .footer-bottom { font-size: 11px; color: var(--muted); margin: 12px 0 0; }
 .not-found { padding: 75px 0; }
+.sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0,0,0,0); white-space: nowrap; border: 0; }
+.seminar-intro { padding-bottom: 8px; }
+.seminar-search { margin: 12px 0 24px; }
+.seminar-search label { display: block; font-size: 14px; margin-bottom: 7px; }
+.seminar-search input { width: 100%; max-width: 520px; padding: 10px 12px; border: 1px solid var(--line); border-radius: 4px; font: inherit; font-size: 16px; background: var(--bg); color: var(--text); }
+.seminar-search input:focus-visible { outline: 2px solid var(--focus); outline-offset: 3px; }
+.seminar-search .note { margin: 8px 0 0; }
+.seminar-section { margin: 28px 0; }
+.seminar-section h2 { font-size: 26px; }
+.seminar-section-count { font-size: 15px; color: var(--muted); margin-left: 7px; }
+.seminar-table { width: 100%; border-collapse: collapse; table-layout: fixed; }
+.seminar-table th { font-size: 13px; font-weight: 400; color: var(--muted); text-align: left; padding: 0 15px 10px 0; }
+.seminar-table th:first-child { width: 126px; }
+.seminar-table th:nth-child(2) { width: 225px; }
+.seminar-table td { padding: 16px 17px 16px 0; border-top: 1px solid var(--line); vertical-align: top; font-size: 14px; overflow-wrap: anywhere; }
+.seminar-table td:last-child { padding-right: 0; }
+.seminar-table td strong { display: block; font-size: 15px; line-height: 1.45; margin-bottom: 3px; }
+.seminar-time, .seminar-affiliation { display: block; color: var(--muted); font-size: 12px; line-height: 1.55; margin-top: 4px; }
+.seminar-topic-label { display: block; font-size: 11px; color: var(--muted); margin-bottom: 4px; }
+.seminar-table p { margin-bottom: 4px; line-height: 1.55; }
+.seminar-reading-links { font-size: 11px; margin-top: 7px; }
+.seminar-year { border-top: 1px solid var(--line); padding: 4px 0; }
+.seminar-year summary { padding: 12px 0; cursor: pointer; font-size: 21px; }
+.seminar-year-count { float: right; padding-top: 6px; color: var(--muted); font-size: 12px; }
+.seminar-source { margin: 35px 0 15px; }
 [hidden] { display: none !important; }
 @media (max-width: 820px) {
-  .header-inner { gap: 15px; }
-  .nav { gap: 15px; }
+  .header-inner { gap: 15px; min-height: 65px; flex-wrap: wrap; padding-top: 12px; padding-bottom: 12px; }
+  .menu-toggle { display: block; margin-left: auto; }
+  .nav { gap: 15px; flex: 1 0 100%; flex-wrap: wrap; padding-top: 10px; }
+  body.has-js .nav { display: none; }
+  body.has-js .nav[data-open="true"] { display: flex; }
   .nav a { font-size: 13px; }
   .wrap { padding: 0 23px; }
 }
@@ -167,6 +193,14 @@ strong { font-weight: 600; }
   .join-content { grid-template-columns: 1fr; gap: 22px; }
   .research-detail { grid-template-columns: 23px 1fr; gap: 0 12px; }
   .research-detail h2 { font-size: 21px; }
+  .seminar-table, .seminar-table tbody, .seminar-table tr, .seminar-table td { display: block; width: 100%; }
+  .seminar-table thead { position: absolute; width: 1px; height: 1px; margin: -1px; overflow: hidden; clip: rect(0,0,0,0); }
+  .seminar-table tr { padding: 15px 0; border-top: 1px solid var(--line); }
+  .seminar-table td { border: 0; padding: 0 0 8px; }
+  .seminar-table td:last-child { padding-bottom: 0; }
+  .seminar-time { display: inline; margin: 0 0 0 12px; }
+  .seminar-table td strong { font-size: 16px; }
+  .seminar-affiliation { margin-top: 3px; }
 }
 @media (prefers-reduced-motion: reduce) {
   html { scroll-behavior: auto; }
