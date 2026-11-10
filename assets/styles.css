@@ -110,7 +110,7 @@ html[data-theme="dark"] .home-logo .logo-dark { display: block; }
 .foundations .kicker { color: var(--muted); font-size: 13px; margin-bottom: 9px; }
 .foundations h2 { font-size: 24px; }
 .profile { display: grid; grid-template-columns: 220px 1fr; gap: 32px; padding: 5px 0 32px; }
-.profile-photo { width: 100%; height: auto; aspect-ratio: 1; object-fit: cover; }
+.profile-photo { width: 100%; height: auto; aspect-ratio: 1; object-fit: cover; object-position: 20% center; }
 .profile h2 { font-size: 25px; line-height: 1.35; margin-bottom: 6px; }
 .profile .kicker { font-size: 13px; color: var(--muted); margin-bottom: 8px; }
 .profile .role { font-size: 14px; color: var(--muted); margin-bottom: 16px; }
