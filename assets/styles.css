@@ -41,7 +41,7 @@ a:focus-visible, button:focus-visible, summary:focus-visible { outline: 2px soli
 .header-inner { min-height: 70px; display: flex; align-items: center; justify-content: space-between; gap: 24px; }
 .brand { color: var(--text); white-space: nowrap; text-decoration: none; font-size: 20px; font-weight: 300; }
 .brand:hover { text-decoration: none; }
-.brand strong { font-weight: 600; }
+.brand strong { color: var(--accent); font-weight: 600; }
 .nav { display: flex; align-items: center; gap: 21px; }
 .nav a { color: var(--text); font-size: 14px; padding: 7px 0; white-space: nowrap; }
 .nav a[aria-current="page"] { color: var(--accent); font-weight: 600; }
