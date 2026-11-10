@@ -60,7 +60,7 @@ def render(data, today):
 <div class="wrap" id="seminar-programme">
 <header class="page-head">
 <h1>seminars</h1>
-<p class="lead">Conversations on genome structure, population genetics, and evolution.</p>
+<p class="lead">Conversations on genome structure, population genetics and evolution.</p>
 </header>
 <div class="seminar-intro">
 <p>Clio has been organizing this seminar series at the University at Buffalo. The series will now continue jointly between MOSAIC Lab at Aarhus University and the Gokcumen Lab at the University at Buffalo, bringing together researchers in evolutionary genomics, structural variation and population genetics.</p>
@@ -68,7 +68,7 @@ def render(data, today):
 </div>
 <div class="seminar-search" hidden>
 <label for="seminar-search">Find a seminar</label>
-<input type="search" id="seminar-search" placeholder="Speaker, institution, topic, or year" autocomplete="off">
+<input type="search" id="seminar-search" placeholder="Speaker, institution, topic or year" autocomplete="off">
 <p class="note" id="seminar-result-count" role="status">{len(events)} seminars</p>
 </div>
 <section class="seminar-section" id="upcoming" aria-labelledby="upcoming-title">
@@ -99,7 +99,7 @@ def main():
         template=(ROOT/'index.html').read_text()
         head,rest=template.split('</head>',1)
         head=re.sub(r'<title>.*?</title>','<title>Seminars | MOSAIC Lab</title>',head)
-        head=re.sub(r'(<meta (?:name="description"|property="og:description") content=")[^"]*(")',r'\g<1>Past and upcoming evolutionary genomics seminars organized by Clio Karageorgiou, with speakers, dates, and reading.\2',head)
+        head=re.sub(r'(<meta (?:name="description"|property="og:description") content=")[^"]*(")',r'\g<1>Past and upcoming evolutionary genomics seminars organized by Clio Karageorgiou, with speakers, dates and reading.\2',head)
         head=re.sub(r'(<meta property="og:title" content=")[^"]*(")',r'\g<1>Seminars | MOSAIC Lab\2',head)
         head=head.replace('href="https://mosaic-lab-aarhus.github.io/"','href="https://mosaic-lab-aarhus.github.io/seminars.html"').replace('content="https://mosaic-lab-aarhus.github.io/"','content="https://mosaic-lab-aarhus.github.io/seminars.html"')
         rest=rest.replace(' aria-current="page"','').replace('<a href="seminars.html">','<a href="seminars.html" aria-current="page">')
