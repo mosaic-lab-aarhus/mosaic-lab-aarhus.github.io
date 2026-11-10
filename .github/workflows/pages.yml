@@ -9,7 +9,8 @@ permissions:
   id-token: write
 concurrency:
   group: pages
-  cancel-in-progress: true
+  # Let an active Pages deployment finish before starting the next one.
+  cancel-in-progress: false
 jobs:
   deploy:
     runs-on: ubuntu-latest
