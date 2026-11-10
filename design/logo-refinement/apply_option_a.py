@@ -1,6 +1,7 @@
 """Install the approved quarter-ended mark without altering its DNA geometry."""
 from copy import deepcopy
 import json
+import re
 from pathlib import Path
 import xml.etree.ElementTree as ET
 
@@ -52,9 +53,8 @@ save(favicon, ASSETS / 'favicon.svg')
 for page in ROOT.glob('*.html'):
     before = page.read_text()
     after = before
-    for name in ['favicon.ico', 'favicon.svg', 'apple-touch-icon.png',
-                 'mosaic-logo.svg', 'mosaic-logo-dark.svg']:
-        after = after.replace(f'assets/{name}"', f'assets/{name}?v=logo-a"')
+    pattern = r'(assets/(?:favicon\.ico|favicon\.svg|apple-touch-icon\.png|mosaic-logo\.svg|mosaic-logo-dark\.svg))(?:\?v=[^"\s]*)?(?=")'
+    after = re.sub(pattern, lambda match: match.group(1) + '?v=logo-a-clearer', after)
     if after != before:
         page.write_text(after)
 

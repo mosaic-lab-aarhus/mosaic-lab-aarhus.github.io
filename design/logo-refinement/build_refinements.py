@@ -31,7 +31,7 @@ def make_logo(name, psi_start, psi_end, caption):
     span = (psi_end - psi_start) / OMEGA
     pairs = math.floor(span) + 1
     pair_offset = (span - (pairs - 1)) / 2
-    scale = 170 / (RISE * span)
+    scale = 190 / (RISE * span)
 
     def point(t, strand):
         theta = psi_start - PHASE / 2 + OMEGA * t + strand * PHASE
@@ -86,36 +86,42 @@ def make_logo(name, psi_start, psi_end, caption):
             element(emblem, 'circle', cx=128 * math.cos(a), cy=128 * math.sin(a),
                     r=size, fill=color)
 
-    primitives = []
-    samples = 1000
-    for strand in [0, 1]:
-        for i in range(samples):
-            a, b = point(span * i / samples, strand), point(span * (i + 1) / samples, strand)
-            primitives.append((-(a[1] + b[1]) / 2, 'backbone', strand, a, b))
+    dna = element(emblem, 'g', id='right-handed-dna', data_handedness='right',
+                  data_base_pairs=pairs, data_full_turns=metadata['helical_turns'])
     pair_positions = [pair_offset + i for i in range(pairs)]
     for i, t in enumerate(pair_positions):
         a, b = point(t, 0), point(t, 1)
         assert abs(a[2] - b[2]) < 1e-12
         assert abs(math.dist(a, b) - 2 * RADIUS * math.sin(PHASE / 2)) < 1e-10
-        for j in range(12):
-            f, g = j / 12, (j + 1) / 12
-            p = tuple(a[k] * (1 - f) + b[k] * f for k in range(3))
-            q = tuple(a[k] * (1 - g) + b[k] * g for k in range(3))
-            primitives.append((-(p[1] + q[1]) / 2, 'base-pair', i, p, q))
-    dna = element(emblem, 'g', id='right-handed-dna', data_handedness='right',
-                  data_base_pairs=pairs, data_full_turns=metadata['helical_turns'])
-    for depth, kind, index, a, b in sorted(primitives, key=lambda p: p[0]):
         p, q = project(a), project(b)
         path = f'M{p[0]:.4f},{p[1]:.4f} L{q[0]:.4f},{q[1]:.4f}'
-        attrs = {'fill': 'none', 'stroke_linecap': 'round'}
-        if kind == 'backbone':
-            front = depth >= 0
-            color = ([INK, OLIVE] if front else ['#9ca69c', '#b1bca3'])[index]
-            element(dna, 'path', d=path, stroke=color, stroke_width=2.8 if front else 2.2,
-                    data_strand=index, **attrs)
-        else:
-            element(dna, 'path', d=path, stroke='#7c8b70', stroke_width=1.25,
-                    data_base_pair=index, **attrs)
+        element(dna, 'path', d=path, stroke='#7c8b70', stroke_width=1.8,
+                data_base_pair=i, fill='none', stroke_linecap='round')
+
+    # Render each uninterrupted front/rear curve as one stroked path. Thousands
+    # of separately antialiased short strokes looked grainy at website size.
+    runs = []
+    for strand in [0, 1]:
+        theta_start = psi_start - PHASE / 2 + strand * PHASE
+        theta_end = theta_start + OMEGA * span
+        cuts = [0.0, span]
+        for n in range(math.ceil(theta_start / math.pi), math.floor(theta_end / math.pi) + 1):
+            t = (n * math.pi - theta_start) / OMEGA
+            if 1e-10 < t < span - 1e-10:
+                cuts.append(t)
+        cuts.sort()
+        for start, end in zip(cuts, cuts[1:]):
+            front = point((start + end) / 2, strand)[1] <= 0
+            steps = max(8, math.ceil((end - start) / span * 1000))
+            points = [project(point(start + (end - start)*i/steps, strand))
+                      for i in range(steps + 1)]
+            runs.append((front, strand, start, end, points))
+    for front, strand, start, end, points in sorted(runs, key=lambda run: run[0]):
+        path = 'M' + ' L'.join(f'{x:.4f},{y:.4f}' for x, y in points)
+        color = ([INK, OLIVE] if front else ['#9ca69c', '#b1bca3'])[strand]
+        element(dna, 'path', d=path, stroke=color, stroke_width=4.1 if front else 3.3,
+                data_strand=strand, data_depth='front' if front else 'rear',
+                fill='none', stroke_linecap='round', stroke_linejoin='round')
     svg.append(deepcopy(WORDMARK))
 
     # Verify the actual generating geometry, not just a handedness label.
@@ -138,6 +144,8 @@ def make_logo(name, psi_start, psi_end, caption):
         assert abs(a[0] - b[0]) < 1e-10
         front = 0 if a[1] < b[1] else 1
         assert front == n % 2
+        assert any(is_front and strand == front and start - 1e-10 <= t <= end + 1e-10
+                   for is_front, strand, start, end, _ in runs)
         crossings.append({'crossing': n, 'nearer_strand': front})
     assert abs(math.cos(TILT)**2 + math.sin(TILT)**2 - 1) < 1e-12
     assert all(abs(pair_positions[i+1] - t - 1) < 1e-12
@@ -151,6 +159,8 @@ def make_logo(name, psi_start, psi_end, caption):
         assert abs((psi_end - 2*math.pi) / math.pi - 0.25) < 1e-12
     assert len({e.attrib['data-base-pair'] for e in dna
                 if 'data-base-pair' in e.attrib}) == pairs
+    assert len([e for e in dna if 'data-base-pair' in e.attrib]) == pairs
+    assert len([e for e in dna if 'data-strand' in e.attrib]) < 20
     report = dict(metadata, positive_torsion_for_both_backbones=True,
                   proper_camera_basis=True, in_plane_rotation_determinant=1,
                   regular_base_pair_spacing=True, inside_emblem=True, crossing_order=crossings)

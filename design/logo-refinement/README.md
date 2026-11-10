@@ -2,6 +2,8 @@
 
 Option A (`quarter-ends.svg`) is the approved website logo. The alternate draft is retained for reference. The installed light version is an exact copy of A; the dark version changes only colours. Browser icons use its emblem with thicker strokes for small sizes.
 
+The installed helix is approximately 12% larger within the emblem and uses stronger strokes for clarity at the website's 420 px logo width. Each uninterrupted front/rear backbone curve is drawn as a continuous path to avoid the graininess caused by antialiasing many separate short strokes. The physical proportions, turn count and base-pair spacing are preserved.
+
 - `quarter-ends.svg`: two complete visible loops plus a quarter-loop at each end; 1.25 full helical turns with 14 base-pair bars.
 - `three-loops.svg`: three complete visible loops; 1.5 full helical turns with 16 base-pair bars.
 - `comparison.png`: visual comparison of the two drafts.
