@@ -45,6 +45,8 @@ def table(events, today, body_attribute, caption):
 
 def render(data, today):
     events = data['events']
+    checked = date.fromisoformat(data['checked'])
+    checked_label = f'{checked:%B} {checked.day}, {checked.year}'
     upcoming = sorted((ev for ev in events if ev['date'] >= today.isoformat()), key=lambda ev:ev['date'])
     past = sorted((ev for ev in events if ev['date'] < today.isoformat()), key=lambda ev:ev['date'], reverse=True)
     years = sorted({ev['date'][:4] for ev in past}, reverse=True)
@@ -81,7 +83,7 @@ def render(data, today):
 <div data-past-years>{''.join(groups)}</div>
 </section>
 <p class="note" data-seminar-no-results hidden>No seminars match your search.</p>
-<p class="note seminar-source">Programme checked on November 9, 2026. <a href="{e(data['source'])}">Original Gokcumen Lab calendar ↗</a></p>
+<p class="note seminar-source">Programme checked on {e(checked_label)}. <a href="{e(data['source'])}">Original Gokcumen Lab calendar ↗</a></p>
 </div>
 {END}'''
 

@@ -1,6 +1,6 @@
 {
-  "source": "https://gokcumenlab.org/events/",
-  "checked": "2026-11-09",
+  "source": "https://gokcumenlab.org/events/category/seminar-series/",
+  "checked": "2026-11-12",
   "organizer": "Charikleia (Clio) Karageorgiou",
   "series": "Gokcumen Lab / BEAGL, University at Buffalo",
   "timezone": "America/New_York",
@@ -682,6 +682,39 @@
       "additional_readings": []
     },
     {
+      "date": "2027-01-22",
+      "speaker": "Lukas Schrader",
+      "affiliation": "University of Münster",
+      "url": "https://gokcumenlab.org/event/seminar-by-lukas-schrader-university-of-munster/",
+      "topic_kind": "reading",
+      "topic": "Transposable elements as evolutionary catalysts of ant macrodiversity",
+      "reading_url": "https://www.science.org/doi/10.1126/sciadv.aee0306",
+      "time": "10:00",
+      "additional_readings": []
+    },
+    {
+      "date": "2027-01-29",
+      "speaker": "Skylar LeMay",
+      "affiliation": "The University of Texas at Austin",
+      "url": "https://gokcumenlab.org/event/seminar-by-skylar-lemay-the-university-of-texas-at-austin/",
+      "topic_kind": "reading",
+      "topic": "Collapsed Site Coalescent Facilitates Detection of Adaptive Divergences Between Segmental Duplicates",
+      "reading_url": "https://www.biorxiv.org/content/10.64898/2026.10.23.761411v1",
+      "time": "10:00",
+      "additional_readings": []
+    },
+    {
+      "date": "2027-02-05",
+      "speaker": "Tom Sasani",
+      "affiliation": "University of Georgia",
+      "url": "https://gokcumenlab.org/event/seminar-by-tom-sasani-university-of-georgia/",
+      "topic_kind": "reading",
+      "topic": "A family portrait of the genomic factors shaping tandem repeat mutagenesis",
+      "reading_url": "https://www.biorxiv.org/content/10.64898/2026.03.06.710071v2",
+      "time": "10:00",
+      "additional_readings": []
+    },
+    {
       "date": "2027-02-19",
       "speaker": "David Tang",
       "affiliation": "Harvard Medical School",
@@ -689,6 +722,28 @@
       "topic_kind": "reading",
       "topic": "Recurrent mitotic error and purifying selection shape chromosomal mosaicism across human tissues",
       "reading_url": "https://www.biorxiv.org/content/10.64898/2026.10.27.760146v1.full.pdf",
+      "time": "10:00",
+      "additional_readings": []
+    },
+    {
+      "date": "2027-03-19",
+      "speaker": "Audrey Arner",
+      "affiliation": "Vanderbilt University",
+      "url": "https://gokcumenlab.org/event/seminar-by-audrey-arner-vanderbilt-university/",
+      "topic_kind": "unspecified",
+      "topic": "",
+      "reading_url": "",
+      "time": "10:00",
+      "additional_readings": []
+    },
+    {
+      "date": "2027-04-16",
+      "speaker": "Olivia S. Harringmeyer",
+      "affiliation": "Princeton University",
+      "url": "https://gokcumenlab.org/event/seminar-by-olivia-s-harringmeyer-princeton-university/",
+      "topic_kind": "reading",
+      "topic": "Gene flux shapes diversity and evolution of the ancient 17q21.31 inversion polymorphism",
+      "reading_url": "https://www.biorxiv.org/content/10.64898/2026.09.28.755014v1",
       "time": "10:00",
       "additional_readings": []
     },
