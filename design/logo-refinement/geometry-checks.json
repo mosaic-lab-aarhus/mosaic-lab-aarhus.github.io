@@ -1,0 +1,84 @@
+[
+  {
+    "model": "schematic centerlines, not an atomic or chemical-bond diagram",
+    "handedness": "right",
+    "camera": "negative y",
+    "screen_right": "+x",
+    "screen_up": "+z",
+    "nearer_depth": "-y",
+    "helical_turns": 1.25,
+    "visible_loop_span": 2.5,
+    "base_pairs_per_full_helical_turn": 10.5,
+    "base_pair_count": 14,
+    "base_pair_center_rise_angstrom": 3.4,
+    "rungs": "one connecting bar per base pair, not individual hydrogen bonds",
+    "strand_polarity": [
+      "5prime to 3prime with increasing z",
+      "5prime to 3prime with decreasing z"
+    ],
+    "backbone_phase_degrees": 144,
+    "end_extensions_in_visible_loops": 0.25,
+    "positive_torsion_for_both_backbones": true,
+    "proper_camera_basis": true,
+    "in_plane_rotation_determinant": 1,
+    "regular_base_pair_spacing": true,
+    "inside_emblem": true,
+    "crossing_order": [
+      {
+        "crossing": 0,
+        "nearer_strand": 0
+      },
+      {
+        "crossing": 1,
+        "nearer_strand": 1
+      },
+      {
+        "crossing": 2,
+        "nearer_strand": 0
+      }
+    ]
+  },
+  {
+    "model": "schematic centerlines, not an atomic or chemical-bond diagram",
+    "handedness": "right",
+    "camera": "negative y",
+    "screen_right": "+x",
+    "screen_up": "+z",
+    "nearer_depth": "-y",
+    "helical_turns": 1.5,
+    "visible_loop_span": 3.0,
+    "base_pairs_per_full_helical_turn": 10.5,
+    "base_pair_count": 16,
+    "base_pair_center_rise_angstrom": 3.4,
+    "rungs": "one connecting bar per base pair, not individual hydrogen bonds",
+    "strand_polarity": [
+      "5prime to 3prime with increasing z",
+      "5prime to 3prime with decreasing z"
+    ],
+    "backbone_phase_degrees": 144,
+    "end_extensions_in_visible_loops": 0,
+    "positive_torsion_for_both_backbones": true,
+    "proper_camera_basis": true,
+    "in_plane_rotation_determinant": 1,
+    "regular_base_pair_spacing": true,
+    "inside_emblem": true,
+    "crossing_order": [
+      {
+        "crossing": 0,
+        "nearer_strand": 0
+      },
+      {
+        "crossing": 1,
+        "nearer_strand": 1
+      },
+      {
+        "crossing": 2,
+        "nearer_strand": 0
+      },
+      {
+        "crossing": 3,
+        "nearer_strand": 1
+      }
+    ]
+  }
+]

@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://mosaic-lab-aarhus.github.io/sitemap.xml
