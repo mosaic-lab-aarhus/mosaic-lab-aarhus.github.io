@@ -1,6 +1,6 @@
 {
   "source": "https://gokcumenlab.org/events/category/seminar-series/",
-  "checked": "2026-11-12",
+  "checked": "2026-11-17",
   "organizer": "Charikleia (Clio) Karageorgiou",
   "series": "Gokcumen Lab / BEAGL, University at Buffalo",
   "timezone": "America/New_York",
@@ -693,17 +693,6 @@
       "additional_readings": []
     },
     {
-      "date": "2027-01-29",
-      "speaker": "Skylar LeMay",
-      "affiliation": "The University of Texas at Austin",
-      "url": "https://gokcumenlab.org/event/seminar-by-skylar-lemay-the-university-of-texas-at-austin/",
-      "topic_kind": "reading",
-      "topic": "Collapsed Site Coalescent Facilitates Detection of Adaptive Divergences Between Segmental Duplicates",
-      "reading_url": "https://www.biorxiv.org/content/10.64898/2026.10.23.761411v1",
-      "time": "10:00",
-      "additional_readings": []
-    },
-    {
       "date": "2027-02-05",
       "speaker": "Tom Sasani",
       "affiliation": "University of Georgia",
@@ -726,10 +715,32 @@
       "additional_readings": []
     },
     {
+      "date": "2027-03-05",
+      "speaker": "Skylar LeMay",
+      "affiliation": "The University of Texas at Austin",
+      "url": "https://gokcumenlab.org/event/seminar-by-skylar-lemay-the-university-of-texas-at-austin/",
+      "topic_kind": "reading",
+      "topic": "Collapsed Site Coalescent Facilitates Detection of Adaptive Divergences Between Segmental Duplicates",
+      "reading_url": "https://www.biorxiv.org/content/10.64898/2026.10.23.761411v1",
+      "time": "10:00",
+      "additional_readings": []
+    },
+    {
       "date": "2027-03-19",
       "speaker": "Audrey Arner",
       "affiliation": "Vanderbilt University",
       "url": "https://gokcumenlab.org/event/seminar-by-audrey-arner-vanderbilt-university/",
+      "topic_kind": "unspecified",
+      "topic": "",
+      "reading_url": "",
+      "time": "10:00",
+      "additional_readings": []
+    },
+    {
+      "date": "2027-04-02",
+      "speaker": "Will Milligan",
+      "affiliation": "Columbia University",
+      "url": "https://gokcumenlab.org/events/",
       "topic_kind": "unspecified",
       "topic": "",
       "reading_url": "",
@@ -745,6 +756,17 @@
       "topic": "Gene flux shapes diversity and evolution of the ancient 17q21.31 inversion polymorphism",
       "reading_url": "https://www.biorxiv.org/content/10.64898/2026.09.28.755014v1",
       "time": "10:00",
+      "additional_readings": []
+    },
+    {
+      "date": "2027-04-30",
+      "speaker": "Gabriele Sgarlata",
+      "affiliation": "University of California, Davis",
+      "url": "https://gokcumenlab.org/events/",
+      "topic_kind": "reading",
+      "topic": "The Genome-Wide Effect of Drift and Selection over a Single Generation",
+      "reading_url": "https://www.biorxiv.org/content/10.64898/2026.08.04.742829v1",
+      "time": "TBD",
       "additional_readings": []
     },
     {
